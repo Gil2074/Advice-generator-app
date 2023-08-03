@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;800&display=swap");
 :root {
-  --lightcyan:hsl(193, 38%, 86%);
+  --lightcyan: hsl(193, 38%, 86%);
   --neon: hsl(150, 100%, 66%);
   --mainbg: hsl(217, 19%, 38%);
   --darkbg: hsl(217, 19%, 24%);
@@ -12,6 +12,11 @@ body {
   font-family: "Manrope", sans-serif;
   background-color: var(--darkblue);
   text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 100vh;
 }
 body main {
   background-color: var(--darkbg);
